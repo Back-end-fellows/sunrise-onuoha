@@ -1,23 +1,21 @@
 HTTP is the protocol that allows for sending documents back and forth on the web. 
 A protocol is a set of rules that determines which messages can be exchanged, and which messages are appropriate replies to others. 
 Another common protocol is POP3, which you might use to fetch email on your hard disk.
-
 HTTPS (Hypertext Transfer Protocol Secure) is a secure version of the HTTP protocol that uses the SSL/TLS protocol for encryption and authentication
-
-HTTPS ensures data security over the network - mainly public networks like Wi-Fi. HTTP is not encrypted and is vulnerable to attackers who are eavesdropping and can gain access to website databases and sensitive information. 
-By virtue, HTTPS encryption is done bi-directionally.
+HTTPS ensures data security over the network - mainly public networks like Wi-Fi. HTTP is not encrypted and is vulnerable to attackers who are eavesdropping and can gain access to website databases and sensitive information. By virtue, HTTPS encryption is done bi-directionally.
 
 The HTTPS protocol makes it possible for website users to transmit sensitive data such as credit card numbers, banking information, and login credentials securely over the internet. 
 For this reason, HTTPS is especially important for securing online activities such as shopping, banking, and remote work. However, HTTPS is quickly becoming the standard protocol for all websites.
 
 Data sent using HTTPS is secured via Transport Layer Security protocol (TLS), which provides three key layers of protection:
 
-Encryption: Encrypting the exchanged data to keep it secure from eavesdroppers. That means that while the user is browsing a website, nobody can "listen" to their conversations, track their activities across multiple pages, or steal their information.
+1. Encryption: Encrypting the exchanged data to keep it secure from eavesdroppers. That means that while the user is browsing a website, nobody can "listen" to their conversations, track their activities across multiple pages, or steal their information.
 
-Data integrity: Data cannot be modified or corrupted during transfer, intentionally or otherwise, without being detected.
+2. Data integrity: Data cannot be modified or corrupted during transfer, intentionally or otherwise, without being detected.
 
-Authentication: Proves that your users communicate with the intended website. It protects against man-in-the-middle attacks and builds user trust, which translates into other business benefits.
+3. Authentication: Proves that your users communicate with the intended website. It protects against man-in-the-middle attacks and builds user trust, which translates into other business benefits.
 In HTTP, there are two different roles: server and client. In general, the client always initiates the conversation.
+
 The primary or most-commonly-used HTTP verbs (or methods, as they are properly called) are;
 1. POST:
     A POST request is used to send data to the server, for example, customer information, file upload, etc. using HTML forms.
